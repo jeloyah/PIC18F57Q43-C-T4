@@ -12,19 +12,19 @@ void main(void) {
     PortA_Initialize();
     
     /* PortB initialization */
-    PortB_Initialize();
+    
     
     /* PortC initialization */
-    PortC_Initialize();
+    
     
     /* PortD initialization */
-    PortD_Initialize();
+    
     
     /* PortE initialization */
-    PortE_Initialize();
+    
     
     /* PortF initialization */
-    PortF_Initialize();
+    
    
     /* TIMER0 Initialization */
     TIMER0_Initialize();

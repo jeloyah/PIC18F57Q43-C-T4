@@ -92,25 +92,25 @@ void Sequence1(void)
 
 void Sequence2(void)
 {
-    LATF = 0xC0;                /* RD7:RD4 = on-on-off-off */
+    ??;                /* RD7:RD4 = on-on-off-off */
     TIMER0_Delay();             /* Delay subroutine */
-    LATF = 0x30;                /* RD7:RD4 = off-off-on-on */
+    ??;                /* RD7:RD4 = off-off-on-on */
     TIMER0_Delay();             /* Delay subroutine */
 }
 
 void Sequence3(void)
 {
-    LATF = 0xE0;                /* RD7:RD4 = on-on-on-off */
+    ??;                /* RD7:RD4 = on-on-on-off */
     TIMER0_Delay();             /* Delay subroutine */
-    LATF = 0x70;                /* RD7:RD4 = off-on-on-on */
+    ??;                /* RD7:RD4 = off-on-on-on */
     TIMER0_Delay();             /* Delay subroutine */          
 }
 
 void Sequence4(void)
 {
-    LATF = 0xF0;                /* RD7:RD4 = on-on-on-on */
+    ??;                /* RD7:RD4 = on-on-on-on */
     TIMER0_Delay();             /* Delay subroutine */
-    LATF = 0x00;                /* RD7:RD4 = off-off-off-off */
+    ??;                /* RD7:RD4 = off-off-off-off */
     TIMER0_Delay();             /* Delay subroutine */      
 }
 

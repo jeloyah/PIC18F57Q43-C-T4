@@ -28,26 +28,26 @@ void PortB_Initialize(void)
     ANSELB = 0x00;
     
     /* Disable Rpull-ups */
-    WPUB = 0x00;
+    WPUB = ??;
         
     /* RB7:RB0 as output */
-    TRISB = 0x00;
+    TRISB = ??;
 }
 
 /* PortC initialization */
 void PortC_Initialize(void)
 {
     /* Clear register */
-    LATA = 0x00;
+    LATC = 0x00;
     
     /* Pins as digital I/O */
     ANSELC = 0x00;
     
     /* Disable Rpull-ups */
-    WPUC = 0x00;
+    WPUC = ??;
         
     /* RC7:RC0 as output */
-    TRISC = 0x00;
+    TRISC = ??;
 }
     
 /* PortD initialization */
@@ -60,10 +60,10 @@ void PortD_Initialize(void)
     ANSELD = 0x00;
     
     /* Disable Rpull-ups */
-    WPUD = 0x00;
+    WPUD = ??;
         
     /* RD7:RD0 as output */
-    TRISD = 0x00;
+    TRISD = ??;
 }
 
 /* PortE initialization */
@@ -76,10 +76,10 @@ void PortE_Initialize(void)
     ANSELE = 0x00;
     
     /* Disable Rpull-ups */
-    WPUE = 0x00;
+    WPUE = ??;
         
     /* RE3:RE0 as output */
-    TRISE = 0x00;
+    TRISE = ??;
 }    
 
 /* PortF initialization */
@@ -92,8 +92,8 @@ void PortF_Initialize(void)
     ANSELF = 0x00;
     
     /* Disable Rpull-ups */
-    WPUF = 0x00;
+    WPUF = ??;
         
     /* PortF as output */
-    TRISF = 0x00;
+    TRISF = ??;
 }
